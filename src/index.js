@@ -9,6 +9,7 @@ import Nav from "./Nav.js";
 import ItemDetail from "./ItemDetail.js";
 import {BrowserRouter as Router, Switch , Route} from 'react-router-dom';
 import shortid from "shortid";
+import StateChange from "./StateChange.js"
 
 ReactDOM.render(
   <Router>
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path = "/shop" component = {Shop}/>
       <Route path = "/shop/:id" component = {ItemDetail} />
       </Switch>
+      <StateChange value = {13} />
     </div>
   </React.StrictMode>
   </Router>,
