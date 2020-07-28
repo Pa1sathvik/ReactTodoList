@@ -8,7 +8,7 @@ export default class Shop extends Component {
 
   state = {
 
-     gmail : [1,2,3,4,5,6]
+     gmail : [1,2,3,4,5,6,7]
   }
  
 
