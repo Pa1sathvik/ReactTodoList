@@ -61,7 +61,7 @@ export default class TodoList extends Component {
     }
 
     return (
-      <div>
+      <div style={{margin:"auto",position:"absolute",display: "flex"}}>
         <TodoForm onSubmit={this.addToDo} />
         {todos.map((todo) => (
           <Todo
